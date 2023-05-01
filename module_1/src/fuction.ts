@@ -40,3 +40,7 @@ const surpriseFriends = (...friends:string[] ):void => friends.forEach((friend) 
 surpriseFriends("Rohit", "Mamun", "Sakil", "Ashik", "Mahasin")
 
 
+// Array and Object Destructure 
+
+
+

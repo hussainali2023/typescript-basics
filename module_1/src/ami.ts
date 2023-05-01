@@ -1,0 +1,1 @@
+console.log("ami typescript sikhtesi")

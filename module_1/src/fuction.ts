@@ -19,4 +19,24 @@ addition(34, 46)
 
 
 // spread operator 
+const myFriends = ['Ashik', 'Mahasin', "Swyeb"]
+const newFriends = ["Nowaj", "Sahid", "Bikram"]
+
+myFriends.push(...newFriends)
+console.log(myFriends)
+
+// npx ts-node-dev src/function.ts
+
+// rest paremeter 
+
+const greetFriends = (friend1:string, friend2:string, friend3:string ):void => 
+// console.log(`Hi ${friend1}\n Hi ${friend2} \n Hi ${friend3}`) 
+
+greetFriends('abul', "kabul", "dabul")
+
+const surpriseFriends = (...friends:string[] ):void => friends.forEach((friend) => console.log(`Hi ${friend}`))
+
+
+surpriseFriends("Rohit", "Mamun", "Sakil", "Ashik", "Mahasin")
+
 

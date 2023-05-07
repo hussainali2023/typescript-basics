@@ -6,7 +6,7 @@
     profession:string,
     address:string
  }
-const crush1: CrushType = {
+const crush0: CrushType = {
     name:"Moina Pakhi",
     age:19,
     profession: 'Developer',

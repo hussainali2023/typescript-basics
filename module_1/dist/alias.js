@@ -1,6 +1,6 @@
 "use strict";
 // npx ts-node-dev --respawn fileName 
-const crush1 = {
+const crush0 = {
     name: "Moina Pakhi",
     age: 19,
     profession: 'Developer',

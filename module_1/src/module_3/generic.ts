@@ -20,3 +20,6 @@ console.log(userNameAndRollNumbers)
 
 type GenericTuple <x, y> = [x, y]
  const relation: GenericTuple <string, string> = [ "Kate Unision", "Robin Dsarta"]
+
+
+ 
